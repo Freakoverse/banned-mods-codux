@@ -1,0 +1,33 @@
+@import '../../../src/styles/theme.module.scss';
+
+.root {
+}
+.navMain {
+    width: 100%;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    padding: 10px;
+}
+.navMainInside {
+    width: 100%;
+    display: flex;
+    gap: 10px;
+    align-content: center;
+    justify-content: center;
+}
+.navMainInsideSec {
+    display: flex;
+    align-content: center;
+}
+.navMainInsideSecLinks {
+    flex-grow: 1;
+    justify-content: center;
+    align-content: center;
+}
+.navMainInsideSecLinksLink {
+    padding: 5px 15px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
